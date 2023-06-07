@@ -1,0 +1,535 @@
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		header{
+			height: 100px ;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.container{
+			height: 100px;
+			width: 80%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo{
+			height: 100px;
+			width: 15%;
+/*			border: 1px solid black;*/
+		}
+		.logo h1{
+			height: 80%;
+			width: 100%;
+			text-align: center;
+			margin-top: 30px;
+			color: blue;
+			font-size: 45px;
+/*			border: 1px solid black;*/
+		}
+		.menu i{
+			font-size: 30px;
+			width: 100px;
+/*			border: 1px solid black;*/
+			text-align: center;
+			color:gray;
+		}
+		nav li{
+			display: inline-block;
+			width:100px;
+/*			border: 1px solid black;*/
+			text-align: center;
+		}
+		nav li a{
+			font-size: 20px;
+			padding: 10px;
+			text-decoration: none;
+		}
+		nav #a,#b{
+			text-decoration: none;
+			font-size: 20px;
+/*			border: 1px solid black;*/
+			padding: 10px;
+			border-radius: 30px;
+			margin-right: 15px;
+		}
+		 nav a{
+		 	margin-top: -10px;
+		 }
+		 .home{
+		 	height: 100vh;
+		 	width: 100%;
+/*		 	border: 1px solid black;*/
+		 	display: flex;
+		 	justify-content: center;
+		 	margin-top: 40px;
+
+		 }
+		 .home .h1{
+		 	width: 40%;
+		 	height: inherit;
+/*		 	border: 1px solid black;*/
+		 	text-align: left;
+		 }
+		 .home h2{
+		 	font-size: 50px;
+		 	margin-bottom: 20px;
+		 }
+		 form label{
+		 	font-size: 20px;
+		 }
+		 form input{
+		 	width: 390px;
+		 	margin-bottom: 30px;
+		 	height: 50px;
+		 }
+		 form a{
+		 	font-size: 24px;
+		 	text-decoration: none;
+		 	margin-bottom: 10px;
+		 	color: darkblue;
+		 }
+		 .home .a{
+		 	width: 390px;
+		 	margin-bottom: 20px;
+		 	height: 50px;
+		 	margin-top: 10px;
+		 	background: darkblue;
+		 	color: white;
+		 	font-size: 20px;
+		 	border-radius: 20px;
+		 }
+		 .home button {
+		 	width: 390px;
+		 	margin-bottom: 20px;
+		 	height: 50px;
+		 	background: transparent;
+		 	font-size: 19px;
+		 	border-radius: 20px;
+		 	margin-top: 10px;
+		 }
+		 .home h5{
+		 	font-size: 20px;
+		 	width: 390px;
+		 	margin-top: -10px;
+		 	margin-bottom: -10px;
+		 	text-align: center;
+/*			border: 1px solid black;*/
+		 }
+		  .home .h2{
+		 	width: 43%;
+/*		 	border: 1px solid black;*/
+		 	background-size: cover;
+		 	
+		 }
+		 .home img{
+		 	height: 100%;
+		 	width: 100%;
+		 	border-radius: 50%;
+		 }
+		 
+		 .job{
+		 	width: 100%;
+		 	height: 50vh;
+/*		 	border: 1px solid black;*/
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 	background: lightgray;
+		 	margin-top: 20px;
+		 }
+		 .job1{
+		 	width: 80%;
+		 	height: 30vh;
+		 	display: flex;
+		 	justify-content: space-evenly;
+/*		 	border:1px solid black;*/
+		 }
+		 .j1 h1{
+		 	font-size: 40px;
+/*		 	border: 1px solid black;*/
+		 	width:350px;
+		 }
+		.j2{
+			width: 500px;
+/*			border: 1px solid black;*/
+		}
+		 .j2 h5{
+		 	margin-bottom: 20px;
+		 	font-size: 20px;
+		 }
+		 .j2 button{
+		 	padding: 10px;
+		 	width: auto;
+		 	font-size: 20px;
+		 	border-radius: 20px;
+		 	margin-bottom: 20px;
+		 	border: 1px solid black;
+		 	background: transparent;
+		 }
+
+		 .find{
+		 	width: 100%;
+		 	height: 70vh;
+/*		 	border: 1px solid black;*/
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 	margin-top: 20px;
+		 }
+		 .find1{
+		 	width: 80%;
+		 	height: 40vh;
+		 	display: flex;
+		 	justify-content: space-evenly;
+/*		 	border:1px solid black;*/
+		 }
+		 .f1 h1{
+		 	font-size: 40px;
+/*		 	border: 1px solid black;*/
+		 	width:350px;
+		 }
+		.f2{
+			width: 600px;
+/*			border: 1px solid black;*/
+		}
+		 .f2 h5{
+		 	margin-bottom: 20px;
+		 	font-size: 20px;
+		 }
+		 .f2 button{
+		 	padding: 10px;
+		 	width: auto;
+		 	font-size: 20px;
+		 	border-radius: 20px;
+		 	margin-bottom: 20px;
+		 	border: 1px solid black;	
+		 	background: transparent;
+		 }
+
+		 .post{
+		 	width: 100%;
+		 	height: 40vh;
+/*		 	border: 1px solid black;*/
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 	margin-top: 40px;
+		 	background: lightgrey;
+		 }
+		 .post1{
+		 	width: 80%;
+		 	height: 20vh;
+		 	display: flex;
+		 	justify-content: space-evenly;
+/*		 	border:1px solid black;*/
+		 }
+		 .p1 h1{
+		 	font-size: 40px;
+/*		 	border: 1px solid black;*/
+		 	width:350px;
+		 }
+		 .p2{
+		 	width: 600px;
+		 	text-align: left;
+/*			border: 1px solid black;*/
+		 }
+		 .p2 button{
+		 	font-size: 20px;
+		 	padding: 10px;
+		 	margin-top: 50px;
+		 	background: transparent;
+		 	border-radius: 20px;
+		 	border:2px solid blue;
+		 }
+
+		 .work{
+		 	width: 100%;
+		 	height: 90vh;
+/*		 	border: 1px solid black;*/
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 	margin-top: 0px;
+		 	background: whitesmoke;
+		 }
+		 .work1{
+		 	width: 80%;
+		 	height: 70vh;
+		 	display: flex;
+		 	justify-content: space-evenly;
+/*		 	border:1px solid black;*/
+		 }
+		 .w1 h1{
+		 	font-size: 40px;
+		 	margin-top: 80px;
+/*		 	border: 1px solid black;*/
+		 	width:450px;
+		 	margin-bottom: 20px;
+		 }
+		 .w1 p{
+		 	font-size: 30px;
+/*		 	border:1px solid blue;*/
+		 	width: 500px;
+		 }
+		 .w2{
+		 	width: 600px;
+		 	text-align: left;
+/*			border: 1px solid black;*/
+		 }
+		 .w2 img{
+		 	height: 500px;
+		 	width: 600px;
+		 	border-radius: 50%;
+		 }
+
+		 .img{
+		 	width: 100%;
+		 	height: 100vh;
+/*		 	border: 1px solid black;*/
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+		 	margin-top: 0px;
+		 	background: white;
+		 }
+		 .img1{
+		 	width: 80%;
+		 	height: 95vh;
+		 	display: flex;
+		 	justify-content: space-between;
+/*		 	border:1px solid black;*/
+		 }
+		  .i1 img{
+		 	height: 400px;
+		 	width: 500px;
+		 	border-radius: 50%;
+		 	border: 1px solid white;
+		 }
+		 .i2 img{
+		 	height: 400px;
+		 	width: 500px;
+		 	border-radius: 50%;
+/*		 	border: 1px solid black;*/
+		 }
+
+		 .i1 h1{
+		 	font-size: 40px;
+/*		 	border: 1px solid black;*/
+		 	width:400px;
+		 	margin-top: 20px;
+		 }
+		  .i2 h1{
+		 	font-size: 40px;
+/*		 	border: 1px solid black;*/
+		 	width:400px;
+		 	margin-top: 20px;
+		 }
+		 .i1 button{
+		 	padding: 15px;
+		 	font-size: 20px;
+		 	background: transparent;
+		 	border-radius: 20px;
+		 	margin-top: 20px;
+		 }
+		 .i2 button{
+		 	padding: 15px;
+		 	font-size: 20px;
+		 	background: transparent;
+		 	margin-top: 20px;
+		 }
+		 .i2 i{
+		 	margin-left: 15px;
+		 }
+		.who{
+			height: 100vh;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.wh1{
+			height: 100vh;
+			width: 45%;
+/*			border: 1px solid black;*/
+			text-align: center;
+			background: lightgray;
+		}
+		.wh1 h1{
+			font-size: 60px;
+			color: red;
+			text-align: center;
+			margin-top: 150px;
+		}
+		.wh1 h5{
+			font-size: 40px;
+			text-align: center;
+/*			border: 1px solid black;*/
+			margin-bottom: 50px;
+		}
+		.wh1 #b3 , #b1, #b2{
+			padding: 10px;
+			width: 500px;
+			font-size: 20px;
+			text-align: left;
+			margin-top: 20px;
+/*			background: transparent;*/
+		}
+		 .wh1 .fa{
+			margin-left: 205px;
+		}
+		#b1 .fa{
+			margin-left: 380px;
+		}
+		#b2 .fa{
+			margin-left: 250px;
+		}
+		.wh2{
+			height: 90vh;
+			width: 50%;
+/*			border: 1px solid black;*/
+		}
+		.wh2 img{
+			height: 90vh;
+			width:100%;
+			border-radius: 50% 0% 0% 50%;
+		}
+		.dream{
+			height: 80vh;
+			width: 100%;
+/*			border: 1px solid black;*/
+			position: relative;
+			margin-top: 30px;
+			align-items: center;
+		}
+		.d1{
+			width: 30%;
+			height: 300px;
+/*			border:1px solid blue;*/
+			float: left;
+			position: absolute;
+			left: 300px;
+			top: 24%;
+		}
+
+		.d1 iframe{
+			width: 100%;
+			height: 300px;
+/*			border:1px solid blue;*/
+		}
+		.d2{
+			width: 60%;
+			height: 80vh;
+/*			border:1px solid blue;*/
+			background: lightblue;
+			text-align: center;
+			float: right;
+
+		}
+		.d2 h2{
+			text-align: center;
+			font-size: 40px;
+			margin-top: 20%;
+			color: darkred;
+		}
+		.d2 h3{
+			font-size: 30px;
+/*			border: 1px solid black;*/
+			width: 380px;	
+			margin-left: 200px;
+			margin-top: 20px;
+			text-align:center;
+		}
+		.bg{
+			height: 100vh;
+			width: 100%;
+/*			border:1px solid blue;*/
+			margin-top: 30px;
+			position: relative
+		}
+		.bg img{
+			height: 100vh;
+			width: 100%;
+			opacity: 0.7;	
+		}
+		.bg p{
+			position: absolute;
+			top: 20px;
+			font-size: 60px;
+			width: 80%;
+			margin-left: 10%;
+		}
+		.bg button{
+			position: absolute;
+			top: 200px;
+			font-size: 20px;
+			padding: 10px;
+			background: transparent;
+			margin-left: -90%;
+		}
+		footer{
+			height: 70vh;
+			width: 100%;
+/*			border: 1px solid black;*/
+			justify-content: center;
+			background: lightgray;
+		}
+		.main1{
+			height: 70vh;
+			width: 80%;
+/*			border: 1px solid black;*/
+			justify-content: center;
+			display: flex;
+			margin: 8px;
+		}
+		.main{
+			width: 100%;
+			height: 60vh;
+/*			border:1px solid blue;*/
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.m{
+			width: 250px;
+			font-size: 20px;
+			list-style: none;
+		}
+		.m h4{
+			font-size: 25px;
+			color: blue;
+		}
+		.m .fa{
+			font-size: 30px;
+		}
+		.m li{
+			margin-top: 10px;
+		}
+		.m h3{
+			font-size: 25px;
+		}
+		.ft{
+			width: 100%;
+			height: 50px;
+/*			border: 1px solid black	;*/
+			text-align: center;
+			line-height: 50px;
+		}
+		.ft li{
+			font-size: 20px;
+			margin-left: 14px;
+/*			border:1px solid blue;*/
+			display: inline-block;
+		}
+		.ft .fa{
+			color: darkblue;
+		}
+		.ft .l{
+			color: darkblue;
+		}
